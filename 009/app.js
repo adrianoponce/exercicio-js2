@@ -8,5 +8,5 @@ function Calcular(){
     let total_INSS = (parseFloat(total) * 8) / 100
     let total_Sind = (parseFloat(total) * 5) / 100
     let total_Liq = total - total_IR - total_INSS - total_Sind
-    document.getElementById('resposta').innerHTML = "Bruto: " + total + " - Líquido: " + total_Liq + " - IR: " + total_IR + " - INSS: " + total_INSS + " - Sindicato: " + total_Sind
+    document.getElementById('resposta').innerHTML = "Bruto: " + total + "<br>Líquido: " + total_Liq + "<br>IR-11%: " + total_IR + "<br>INSS-8%: " + total_INSS + "<br>Sindicato-5%: " + total_Sind
 }
